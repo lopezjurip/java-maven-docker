@@ -1,0 +1,5 @@
+myapp:
+  build: .
+  command: mvn exec:java
+  ports:
+    - "4567:4567"
